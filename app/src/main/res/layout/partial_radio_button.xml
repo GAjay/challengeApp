@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cambium.challenge.components.RalewayRegularRadioButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorTextBlueDark"
+    android:background="@drawable/bg_edittext"
+    android:padding="10dp"
+    android:id="@+id/radio_country"
+    android:theme="@style/radioButtonStyle"/>

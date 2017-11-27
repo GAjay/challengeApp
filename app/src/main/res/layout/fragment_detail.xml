@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_listing"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_detail"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:outlineProvider="background">
+
+        <com.cambium.challenge.components.RalewaySemiBoldTextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:includeFontPadding="false"
+            android:padding="@dimen/margin_small"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_larger" />
+
+        <com.cambium.challenge.components.RalewayRegularTextView
+            android:id="@+id/tv_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:layout_marginTop="@dimen/margin_small"
+            android:includeFontPadding="false"
+            android:text=""
+            android:padding="@dimen/margin_small"
+            android:textSize="@dimen/font_normal" />
+
+        <com.cambium.challenge.components.RalewayLightTextView
+            android:id="@+id/tv_blurb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:layout_marginTop="@dimen/margin_small"
+            android:includeFontPadding="false"
+            android:padding="@dimen/margin_small"
+            android:text=""
+            android:textSize="@dimen/font_medium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal">
+
+            <com.cambium.challenge.components.RalewayRegularTextView
+                android:id="@+id/tv_backers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_usersgroup"
+                android:drawablePadding="@dimen/margin_normal"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:padding="@dimen/margin_small"
+                android:textColor="@color/colorTextBlueDark"
+                android:textSize="@dimen/font_normal" />
+
+            <com.cambium.challenge.components.RalewayRegularTextView
+                android:id="@+id/tv_fund"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_notes"
+                android:drawablePadding="@dimen/margin_normal"
+                android:gravity="center_vertical"
+
+                android:includeFontPadding="false"
+                android:padding="@dimen/margin_small"
+                android:textColor="@color/colorTextBlueDark"
+                android:textSize="@dimen/font_normal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:orientation="horizontal">
+
+            <com.cambium.challenge.components.RalewayRegularTextView
+                android:id="@+id/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="@dimen/margin_normal"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:padding="@dimen/margin_small"
+                android:textColor="@color/colorTextBlueDark"
+                android:textSize="@dimen/font_normal" />
+
+            <com.cambium.challenge.components.RalewayRegularTextView
+                android:id="@+id/tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_clock"
+                android:drawablePadding="@dimen/margin_normal"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:padding="@dimen/margin_small"
+                android:textColor="@color/colorTextBlueDark"
+                android:textSize="@dimen/font_normal" />
+
+        </LinearLayout>
+        <com.cambium.challenge.components.RalewayRegularTextView
+            android:id="@+id/tv_pledge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_notes"
+            android:drawablePadding="@dimen/margin_normal"
+            android:gravity="center_vertical"
+
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:includeFontPadding="false"
+            android:padding="@dimen/margin_small"
+            android:textColor="@color/colorTextBlueDark"
+            android:textSize="@dimen/font_normal" />
+
+
+        <com.cambium.challenge.components.RalewaySemiBoldButton
+            android:id="@+id/btn_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:background="@drawable/bg_button"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="@string/label_more"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_medium" />
+
+    </LinearLayout>
+
+</LinearLayout>

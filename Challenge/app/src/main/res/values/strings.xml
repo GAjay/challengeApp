@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Challenge</string>
+    <string name="alert_something_went_wrong">Something went wrong, please try again later.</string>
+    <string name="alert_check_internet">Internet connection error. Please try again later.</string>
+    <string name="text_alert">Alert</string>
+    <string name="hint_search">Search by name</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_sorting">Sorting</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_no_record_found">No record(s) found.</string>
+    <string name="label_backers">No. Backers:</string>
+    <string name="label_no.pledged">No. Pledged:</string>
+    <string name="label_more">Read More</string>
+    <string name="label_select">Select</string>
+    <string name="label_sort_a_z">Sort by A-Z</string>
+    <string name="label_sort_z_a">Sort by Z-A</string>
+    <string name="label_sort_time_desc">Sort by Time Desc</string>
+    <string name="label_sort_time_asc">Sort by Time Asc</string>
+    <string name="label_symbol">$</string>
+    <string name="compare_currency">usd</string>
+    <string name="label_retry">Retry</string>
+    <string name="created_by">Created by:</string>
+</resources>

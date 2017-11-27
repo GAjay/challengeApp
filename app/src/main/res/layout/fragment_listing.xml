@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_listing"
+    android:orientation="vertical">
+
+    <com.cambium.challenge.components.RalewayRegularEditText
+        android:id="@+id/etv_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:background="@drawable/bg_edittext"
+        android:drawablePadding="@dimen/margin_normal"
+        android:elevation="2dp"
+        android:outlineProvider="background"
+        android:drawableRight="@drawable/ic_search"
+        android:hint="@string/hint_search"
+        android:padding="@dimen/margin_normal"
+        android:textSize="@dimen/font_medium" />
+
+    <LinearLayout
+        android:id="@+id/ll_filter_sorting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_filters"
+        android:orientation="horizontal"
+        android:divider="@drawable/bg_space"
+        android:showDividers="middle"
+        android:elevation="2dp"
+        android:outlineProvider="background"
+        android:layout_margin="@dimen/margin_small"
+        android:padding="@dimen/margin_normal">
+
+        <com.cambium.challenge.components.RalewayLightTextView
+            android:id="@+id/tv_sorting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_sort"
+            android:drawablePadding="@dimen/margin_small"
+            android:gravity="center_vertical"
+            android:text="@string/label_sorting"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_normal" />
+
+        <com.cambium.challenge.components.RalewayLightTextView
+            android:id="@+id/tv_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_filter"
+            android:drawablePadding="@dimen/margin_small"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/label_filter"
+            android:textSize="@dimen/font_normal" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lv_project_listing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"
+        android:visibility="gone"
+        android:scrollbars="none" />
+    <com.cambium.challenge.components.RalewaySemiBoldTextView
+        android:id="@+id/tv_no_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorTextBlueDark"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/label_no_record_found"
+        android:visibility="gone"
+        android:textSize="@dimen/font_large"/>
+
+</LinearLayout>

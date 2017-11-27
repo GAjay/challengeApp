@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Challenge</string>
+    <string name="alert_something_went_wrong">Something went wrong, please try again later.</string>
+    <string name="alert_check_internet">Internet connection error. Please try again later.</string>
+    <string name="text_alert">Alert</string>
+    <string name="hint_search">Search by name</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_sorting">Sort</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_no_record_found">No record(s) found.</string>
+    <string name="label_backers">No. Backers:</string>
+    <string name="label_no.pledged">No. Pledged:</string>
+    <string name="label_more">Read More</string>
+    <string name="label_select">Select</string>
+    <string name="label_sort_a_z">Sort by A-Z</string>
+    <string name="label_sort_z_a">Sort by Z-A</string>
+    <string name="label_sort_time_desc">Sort by Time Desc</string>
+    <string name="label_sort_time_asc">Sort by Time Asc</string>
+    <string name="label_symbol">$</string>
+    <string name="compare_currency">usd</string>
+    <string name="label_retry">Retry</string>
+    <string name="created_by">Created by:</string>
+    <string name="label_home">Home</string>
+    <string name="label_about">About</string>
+    <string name="label_about_me">About Me</string>
+    <string name="about_data">My Name is Ajay Kumar Maheshwari. I am an Open Source enthusiast and love playing with codes.I have been involved in several public activities where I have represented organizations. I believe that learning comes from sharing …</string>
+    <string name="label_version">App Version 1.0</string>
+    <string name="label_about_app">About App</string>
+    <string name="app_data">This app has hold list of Kickstarter projects.</string>
+    <string name="text_made_with">Made with</string>
+
+    <string name="text_second_last"> for Hackerearth and </string>
+    <string name="text_last"> Cambium Networks.</string>
+    <string name="website">http://devtantra.com</string>
+</resources>
