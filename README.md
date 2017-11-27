@@ -1,4 +1,4 @@
-# challengeApp
+# ChallengeApp
 I have built this app for hackerearth challenge. It has three four screens, which you can see in below figures. 
 
 ## Features
