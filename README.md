@@ -1,5 +1,5 @@
 # ChallengeApp
-I have built this app for hackerearth challenge. It has three four screens, which you can see in below figures. 
+I have built this app for hackerearth challenge. It has four screens, which you can see in figures below.
 
 ## Features
 1. In this app I have used square retofit lib to make the API calling fast to fast. 
