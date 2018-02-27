@@ -1,4 +1,7 @@
 # ChallengeApp
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/01dac0ec5bdc4155a07ef0d3e0023943)](https://app.codacy.com/app/devakm95/challengeApp?utm_source=github.com&utm_medium=referral&utm_content=GAjay/challengeApp&utm_campaign=badger)
+
 I have built this app for hackerearth challenge. It has four screens, which you can see in figures below.
 
 ## Features
